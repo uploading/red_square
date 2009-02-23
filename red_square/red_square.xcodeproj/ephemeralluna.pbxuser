@@ -40,21 +40,18 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 257104982;
-			PBXWorkspaceStateSaveDate = 257104982;
+			PBXPerProjectTemplateStateSaveDate = 257121444;
+			PBXWorkspaceStateSaveDate = 257121444;
 		};
 		perUserProjectItems = {
-			CB8E44120F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44120F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E44140F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44140F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E44150F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44150F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E44160F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44160F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E44170F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44170F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E44180F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44180F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E44190F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44190F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E441C0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441C0F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E441D0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441D0F535B3F006ABFAF /* PBXTextBookmark */;
-			CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */;
+			CB363F0E0F535C9E002FF456 = CB363F0E0F535C9E002FF456 /* PBXTextBookmark */;
+			CB67678B0F535CA7004D524C /* PBXTextBookmark */ = CB67678B0F535CA7004D524C /* PBXTextBookmark */;
+			CB8E44120F535B3F006ABFAF = CB8E44120F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44140F535B3F006ABFAF = CB8E44140F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44160F535B3F006ABFAF = CB8E44160F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44170F535B3F006ABFAF = CB8E44170F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E441A0F535B3F006ABFAF = CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E441E0F535B3F006ABFAF = CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */;
 		};
 		sourceControlManager = CB253E760F53039800B12955 /* Source Control */;
 		userBuildSettings = {
@@ -95,6 +92,26 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	CB363F0E0F535C9E002FF456 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
+	CB67678B0F535CA7004D524C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
 	CB8E44010F531F69006ABFAF /* MyCustomView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 336}}";
@@ -121,6 +138,7 @@
 	};
 	CB8E44130F535B3F006ABFAF /* MyCustomView.m */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
 		name = MyCustomView.m;
 		path = "/Users/ephemeralluna/Documents/Spring 09/Little Computers/projects/ObjC/red_square/red_square2/MyCustomView.m";
 		sourceTree = "<absolute>";
@@ -134,16 +152,6 @@
 		rType = 0;
 		vrLen = 414;
 		vrLoc = 1882;
-	};
-	CB8E44150F535B3F006ABFAF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
-		name = "MyCustomView.h: 20";
-		rLen = 0;
-		rLoc = 379;
-		rType = 0;
-		vrLen = 304;
-		vrLoc = 84;
 	};
 	CB8E44160F535B3F006ABFAF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -165,26 +173,6 @@
 		vrLen = 341;
 		vrLoc = 0;
 	};
-	CB8E44180F535B3F006ABFAF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
-		name = "MyCustomView.h: 20";
-		rLen = 0;
-		rLoc = 379;
-		rType = 0;
-		vrLen = 304;
-		vrLoc = 84;
-	};
-	CB8E44190F535B3F006ABFAF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CB8E44020F531F69006ABFAF /* MyCustomView.m */;
-		name = "MyCustomView.m: 88";
-		rLen = 0;
-		rLoc = 2014;
-		rType = 0;
-		vrLen = 414;
-		vrLoc = 1882;
-	};
 	CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = CB8E441B0F535B3F006ABFAF /* MyCustomView.m */;
@@ -197,29 +185,10 @@
 	};
 	CB8E441B0F535B3F006ABFAF /* MyCustomView.m */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
 		name = MyCustomView.m;
 		path = "/Users/ephemeralluna/Documents/Spring 09/Little Computers/projects/ObjC/red_square/red_square2/MyCustomView.m";
 		sourceTree = "<absolute>";
-	};
-	CB8E441C0F535B3F006ABFAF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
-		name = "MyCustomView.h: 20";
-		rLen = 0;
-		rLoc = 379;
-		rType = 0;
-		vrLen = 304;
-		vrLoc = 84;
-	};
-	CB8E441D0F535B3F006ABFAF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CB8E44020F531F69006ABFAF /* MyCustomView.m */;
-		name = "MyCustomView.m: 88";
-		rLen = 0;
-		rLoc = 2014;
-		rType = 0;
-		vrLen = 414;
-		vrLoc = 1882;
 	};
 	CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
