@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* red_square */ = {
+		activeExec = 0;
+		executables = (
+			CB253E6D0F53037900B12955 /* red_square */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CB253E6D0F53037900B12955 /* red_square */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* red_square */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* red_square */,
+		);
+		codeSenseManager = CB253E770F53039800B12955 /* Code sense */;
+		executables = (
+			CB253E6D0F53037900B12955 /* red_square */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 257104982;
+			PBXWorkspaceStateSaveDate = 257104982;
+		};
+		perUserProjectItems = {
+			CB8E44120F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44120F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44140F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44140F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44150F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44150F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44160F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44160F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44170F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44170F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44180F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44180F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E44190F535B3F006ABFAF /* PBXTextBookmark */ = CB8E44190F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E441C0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441C0F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E441D0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441D0F535B3F006ABFAF /* PBXTextBookmark */;
+			CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */ = CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */;
+		};
+		sourceControlManager = CB253E760F53039800B12955 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CB253E6D0F53037900B12955 /* red_square */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = red_square;
+		sourceDirectories = (
+		);
+	};
+	CB253E760F53039800B12955 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	CB253E770F53039800B12955 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CB8E44010F531F69006ABFAF /* MyCustomView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 336}}";
+			sepNavSelRange = "{379, 0}";
+			sepNavVisRange = "{84, 304}";
+		};
+	};
+	CB8E44020F531F69006ABFAF /* MyCustomView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 1986}}";
+			sepNavSelRange = "{636, 0}";
+			sepNavVisRange = "{366, 315}";
+		};
+	};
+	CB8E44120F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44130F535B3F006ABFAF /* MyCustomView.m */;
+		name = "MyCustomView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CB8E44130F535B3F006ABFAF /* MyCustomView.m */ = {
+		isa = PBXFileReference;
+		name = MyCustomView.m;
+		path = "/Users/ephemeralluna/Documents/Spring 09/Little Computers/projects/ObjC/red_square/red_square2/MyCustomView.m";
+		sourceTree = "<absolute>";
+	};
+	CB8E44140F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44020F531F69006ABFAF /* MyCustomView.m */;
+		name = "MyCustomView.m: 88";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 1882;
+	};
+	CB8E44150F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
+	CB8E44160F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
+	CB8E44170F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44020F531F69006ABFAF /* MyCustomView.m */;
+		name = "MyCustomView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 0;
+	};
+	CB8E44180F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
+	CB8E44190F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44020F531F69006ABFAF /* MyCustomView.m */;
+		name = "MyCustomView.m: 88";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 1882;
+	};
+	CB8E441A0F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E441B0F535B3F006ABFAF /* MyCustomView.m */;
+		name = "MyCustomView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CB8E441B0F535B3F006ABFAF /* MyCustomView.m */ = {
+		isa = PBXFileReference;
+		name = MyCustomView.m;
+		path = "/Users/ephemeralluna/Documents/Spring 09/Little Computers/projects/ObjC/red_square/red_square2/MyCustomView.m";
+		sourceTree = "<absolute>";
+	};
+	CB8E441C0F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
+	CB8E441D0F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44020F531F69006ABFAF /* MyCustomView.m */;
+		name = "MyCustomView.m: 88";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 1882;
+	};
+	CB8E441E0F535B3F006ABFAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB8E44010F531F69006ABFAF /* MyCustomView.h */;
+		name = "MyCustomView.h: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 84;
+	};
+}
