@@ -73,7 +73,17 @@
 - (void) touchesMoved:(NSSet*)touches withEvent:(UIEvent*)event
 {
 	NSLog(@"touches moved count %d, %@", [touches count], touches);
-	
+	if([touches count] > 1)
+	{
+		// find initial slope between two fingers
+		CGFloat initAngle = 0.1;
+		// find updated slope between two fingers
+		CGFloat newAngle = 0.2;
+		// calculate change in angle
+		CGFloat angleChange = initAngle - newAngle;
+		// add change in angle to rotation
+		rotation = rotation + angleChange;
+	}
 	// tel the view to redraw
 	[self setNeedsDisplay];
 }
@@ -107,7 +117,7 @@
 	CGContextTranslateCTM(context, centerx, centery);
 	
 	// Uncomment to see the rotated square
-	//CGContextRotateCTM(context, rotation);
+	CGContextRotateCTM(context, rotation);
 	
 	// Set red stroke
 	CGContextSetRGBStrokeColor(context, 1.0, 0.0, 0.0, 1.0);
