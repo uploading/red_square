@@ -12,6 +12,7 @@
 @interface MyCustomView : UIView {
 	CGFloat				squareSize;
 	CGFloat				rotation;
+	CGFloat				initAngle;
 	CGColorRef			aColor;
 	BOOL				twoFingers;
 	

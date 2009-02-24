@@ -27,6 +27,7 @@
 	squareSize = 100.0f;
 	twoFingers = NO;
 	rotation = 0.5f;
+	initAngle = 0.0f;
 	// Explicitly turn on the multitouch for this view
 	self.multipleTouchEnabled = YES;
 	
@@ -64,6 +65,18 @@
 	if([touches count] > 1)
 	{
 		twoFingers = YES;
+		
+		NSSet *allTouches = [event allTouches];
+		UITouch *touch1 = [[allTouches allObjects] objectAtIndex:0];
+		UITouch *touch2 = [[allTouches allObjects] objectAtIndex:1];
+		
+		// x length between fingers
+		CGFloat xDist = xDist = [touch1 locationInView:self].x - [touch2 locationInView:self].x;
+		// y length between fingers
+		CGFloat yDist = [touch1 locationInView:self].y-[touch2 locationInView:self].y;
+		//NSLog(@"%@,%@", xDist, yDist);
+		// angle of fingers		
+		initAngle = atan(yDist/xDist);
 	}
 	
 	// tell the view to redraw
@@ -87,8 +100,13 @@
 		// angle of fingers		
 		CGFloat newAngle = atan(yDist/xDist);
 		
+		// calculate change
+		CGFloat delta = newAngle - initAngle;
+		
 		// add change in angle to rotation
-		rotation = newAngle;
+		rotation = rotation + delta;
+		
+		initAngle = newAngle;
 	}
 	// tel the view to redraw
 	[self setNeedsDisplay];
