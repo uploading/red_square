@@ -80,13 +80,12 @@
 		UITouch *touch2 = [[allTouches allObjects] objectAtIndex:1];
 		
 		// x length between fingers
-		CGFloat xDist = [touch1 locationInView:self].x;
-		xDist = [touch1 locationInView:self].x - [touch2 locationInView:self].x;
+		CGFloat xDist = xDist = [touch1 locationInView:self].x - [touch2 locationInView:self].x;
 		// y length between fingers
 		CGFloat yDist = [touch1 locationInView:self].y-[touch2 locationInView:self].y;
 		//NSLog(@"%@,%@", xDist, yDist);
 		// angle of fingers		
-		CGFloat newAngle = tan(yDist/xDist);
+		CGFloat newAngle = atan(yDist/xDist);
 		
 		// add change in angle to rotation
 		rotation = newAngle;
