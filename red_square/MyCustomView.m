@@ -75,14 +75,21 @@
 	NSLog(@"touches moved count %d, %@", [touches count], touches);
 	if([touches count] > 1)
 	{
-		// find initial slope between two fingers
-		CGFloat initAngle = 0.1;
-		// find updated slope between two fingers
-		CGFloat newAngle = 0.2;
-		// calculate change in angle
-		CGFloat angleChange = initAngle - newAngle;
+		NSSet *allTouches = [event allTouches];
+		UITouch *touch1 = [[allTouches allObjects] objectAtIndex:0];
+		UITouch *touch2 = [[allTouches allObjects] objectAtIndex:1];
+		
+		// x length between fingers
+		CGFloat xDist = [touch1 locationInView:self].x;
+		xDist = [touch1 locationInView:self].x - [touch2 locationInView:self].x;
+		// y length between fingers
+		CGFloat yDist = [touch1 locationInView:self].y-[touch2 locationInView:self].y;
+		//NSLog(@"%@,%@", xDist, yDist);
+		// angle of fingers		
+		CGFloat newAngle = tan(yDist/xDist);
+		
 		// add change in angle to rotation
-		rotation = rotation + angleChange;
+		rotation = newAngle;
 	}
 	// tel the view to redraw
 	[self setNeedsDisplay];
